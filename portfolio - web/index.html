@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanvesh padyal-portfolio</title>
+    <link rel="stylesheet" href="./port.css">
+    <script src="https://kit.fontawesome.com/5bfb799d1c.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/man.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <style>
+        .circle-wrap {
+            margin: 30px 0;
+            min-width: 150px;
+            min-height: 150px;
+            background: gray;
+            border-radius: 50%;
+            border: 1px solid #cdcbd0;
+            position: relative;
+        }
+
+        .circle-wrap .circle .mask,
+        .circle-wrap .circle .fill {
+            min-width: 150px;
+            min-height: 150px;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .circle-wrap .circle .mask {
+            clip: rect(0px, 150px, 150px, 75px);
+        }
+
+        .circle-wrap .inside-circle {
+            width: 122px;
+            height: 122px;
+            border-radius: 50%;
+            background: black;
+            line-height: 120px;
+            text-align: center;
+            margin-top: 14px;
+            margin-left: 14px;
+            color: gold;
+            position: absolute;
+            z-index: 100;
+            font-weight: 700;
+            font-size: 2em;
+        }
+
+        /* color animation */
+
+        /* 3rd progress bar */
+        .mask .fill {
+            clip: rect(0px, 75px, 150px, 0px);
+            background-color: gold;
+        }
+
+        .mask.full,
+        .circle .fill {
+            animation: fill ease-in-out 3s;
+            transform: rotate(150deg);
+        }
+
+        @keyframes fill {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(150deg);
+            }
+        }
+
+
+
+        /* 1 */
+        .circle-wrap1 {
+            margin: 30px 0;
+            min-width: 150px;
+            min-height: 150px;
+            background: gray;
+            border-radius: 50%;
+            border: 1px solid #cdcbd0;
+            position: relative;
+        }
+
+        .circle-wrap1 .circle1 .mask1,
+        .circle-wrap1 .circle1 .fill1 {
+            min-width: 150px;
+            min-height: 150px;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .circle-wrap1 .circle1 .mask1 {
+            clip: rect(0px, 150px, 150px, 75px);
+        }
+
+        .circle-wrap1 .inside-circle1 {
+            width: 122px;
+            height: 122px;
+            border-radius: 50%;
+            background: black;
+            line-height: 120px;
+            text-align: center;
+            margin-top: 14px;
+            margin-left: 14px;
+            color: gold;
+            position: absolute;
+            z-index: 100;
+            font-weight: 700;
+            font-size: 2em;
+        }
+
+        /* color animation */
+
+        /* 3rd progress bar */
+        .mask1 .fill1 {
+            clip: rect(0px, 75px, 150px, 0px);
+            background-color: gold;
+        }
+
+        .mask1.full1,
+        .circle1 .fill1 {
+            animation: fill1 ease-in-out 3s;
+            transform: rotate(140deg);
+        }
+
+        @keyframes fill1 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(140deg);
+            }
+        }
+
+        /* 2 */
+        .circle-wrap2 {
+            margin: 30px 0;
+            min-width: 150px;
+            min-height: 150px;
+            background: gray;
+            border-radius: 50%;
+            border: 1px solid #cdcbd0;
+            position: relative;
+        }
+
+        .circle-wrap2 .circle2 .mask2,
+        .circle-wrap2 .circle2 .fill2 {
+            min-width: 150px;
+            min-height: 150px;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .circle-wrap2 .circle2 .mask2 {
+            clip: rect(0px, 150px, 150px, 75px);
+        }
+
+        .circle-wrap2 .inside-circle2 {
+            width: 122px;
+            height: 122px;
+            border-radius: 50%;
+            background: black;
+            line-height: 120px;
+            text-align: center;
+            margin-top: 14px;
+            margin-left: 14px;
+            color: gold;
+            position: absolute;
+            z-index: 100;
+            font-weight: 700;
+            font-size: 2em;
+        }
+
+        /* color animation */
+
+        /* 3rd progress bar */
+        .mask2 .fill2 {
+            clip: rect(0px, 75px, 150px, 0px);
+            background-color: gold;
+        }
+
+        .mask2.full2,
+        .circle2 .fill2 {
+            animation: fill2 ease-in-out 3s;
+            transform: rotate(100deg);
+        }
+
+        @keyframes fill2 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(100deg);
+            }
+        }
+
+        /* 3 */
+        .circle-wrap3 {
+            margin: 30px 0;
+            min-width: 150px;
+            min-height: 150px;
+            background: gray;
+            border-radius: 50%;
+            border: 1px solid #cdcbd0;
+            position: relative;
+        }
+
+        .circle-wrap3 .circle3 .mask3,
+        .circle-wrap3 .circle3 .fill3 {
+            min-width: 150px;
+            min-height: 150px;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .circle-wrap3 .circle3 .mask3 {
+            clip: rect(0px, 150px, 150px, 75px);
+        }
+
+        .circle-wrap3 .inside-circle3 {
+            width: 122px;
+            height: 122px;
+            border-radius: 50%;
+            background: black;
+            line-height: 120px;
+            text-align: center;
+            margin-top: 14px;
+            margin-left: 14px;
+            color: gold;
+            position: absolute;
+            z-index: 100;
+            font-weight: 700;
+            font-size: 2em;
+        }
+
+        /* color animation */
+
+        /* 3rd progress bar */
+        .mask3 .fill3 {
+            clip: rect(0px, 75px, 150px, 0px);
+            background-color: gold;
+        }
+
+        .mask3.full3,
+        .circle3 .fill3 {
+            animation: fill3 ease-in-out 3s;
+            transform: rotate(125deg);
+        }
+
+        @keyframes fill3 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(125deg);
+            }
+        }
+
+        /* 4 */
+        .circle-wrap4 {
+            margin: 30px 0;
+            min-width: 150px;
+            min-height: 150px;
+            background: gray;
+            border-radius: 50%;
+            border: 1px solid #cdcbd0;
+            position: relative;
+        }
+
+        .circle-wrap4 .circle4 .mask4,
+        .circle-wrap4 .circle4 .fill4 {
+            min-width: 150px;
+            min-height: 150px;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .circle-wrap4 .circle4 .mask4 {
+            clip: rect(0px, 150px, 150px, 75px);
+        }
+
+        .circle-wrap4 .inside-circle4 {
+            width: 122px;
+            height: 122px;
+            border-radius: 50%;
+            background: black;
+            line-height: 120px;
+            text-align: center;
+            margin-top: 14px;
+            margin-left: 14px;
+            color: gold;
+            position: absolute;
+            z-index: 100;
+            font-weight: 700;
+            font-size: 2em;
+        }
+
+        /* color animation */
+
+        /* 3rd progress bar */
+        .mask4 .fill4 {
+            clip: rect(0px, 75px, 150px, 0px);
+            background-color: gold;
+        }
+
+        .mask4.full4,
+        .circle4 .fill4 {
+            animation: fill4 ease-in-out 3s;
+            transform: rotate(125deg);
+        }
+
+        @keyframes fill4 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(125deg);
+            }
+        }
+
+        /* 5 */
+        .circle-wrap5 {
+            margin: 30px 0;
+            min-width: 150px;
+            min-height: 150px;
+            background: gray;
+            border-radius: 50%;
+            border: 1px solid #cdcbd0;
+            position: relative;
+        }
+
+        .circle-wrap5 .circle5 .mask5,
+        .circle-wrap5 .circle5 .fill5 {
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        .circle-wrap5 .circle5 .mask5 {
+            clip: rect(0px, 150px, 150px, 75px);
+        }
+
+        .circle-wrap5 .inside-circle5 {
+            width: 122px;
+            height: 122px;
+            border-radius: 50%;
+            background: black;
+            line-height: 120px;
+            text-align: center;
+            margin-top: 14px;
+            margin-left: 14px;
+            color: gold;
+            position: absolute;
+            z-index: 100;
+            font-weight: 700;
+            font-size: 2em;
+        }
+
+        /* color animation */
+
+        /* 3rd progress bar */
+        .mask5 .fill5 {
+            clip: rect(0px, 75px, 150px, 0px);
+            background-color: gold;
+        }
+
+        .mask5.full5,
+        .circle5 .fill5 {
+            animation: fill5 ease-in-out 3s;
+            transform: rotate(100deg);
+        }
+
+        @keyframes fill5 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(100deg);
+            }
+        }
+
+
+        @media (max-width:1200px) {
+            .circle-wrap {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap .circle .mask,
+            .circle-wrap .circle .fill {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap .circle .mask {
+                clip: rect(0px, 130px, 130px, 55px);
+            }
+
+            .circle-wrap .inside-circle {
+                width: 108px;
+                height: 108px;
+                font-size: 1.4em;
+                margin-top: 10.5px;
+                margin-left: 11px;
+            }
+
+            .mask .fill {
+                clip: rect(0px, 55px, 130px, 0px);
+                background-color: gold;
+            }
+
+            .circle-wrap1 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap1 .circle1 .mask1,
+            .circle-wrap1 .circle1 .fill1 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap1 .circle1 .mask1 {
+                clip: rect(0px, 130px, 130px, 55px);
+            }
+
+            .circle-wrap1 .inside-circle1 {
+                width: 108px;
+                height: 108px;
+                font-size: 1.4em;
+                margin-top: 10.5px;
+                margin-left: 11px;
+            }
+
+            .mask .fill1 {
+                clip: rect(0px, 55px, 130px, 0px);
+                background-color: gold;
+            }
+
+            .circle-wrap2 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap2 .circle2 .mask2,
+            .circle-wrap2 .circle2 .fill2 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap2 .circle2 .mask2 {
+                clip: rect(0px, 130px, 130px, 55px);
+            }
+
+            .circle-wrap2 .inside-circle2 {
+                width: 108px;
+                height: 108px;
+                font-size: 1.4em;
+                margin-top: 10.5px;
+                margin-left: 11px;
+            }
+
+            .mask2 .fill2 {
+                clip: rect(0px, 55px, 130px, 0px);
+                background-color: gold;
+            }
+
+            .circle-wrap3 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap3 .circle3 .mask3,
+            .circle-wrap3 .circle3 .fill3 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap3 .circle3 .mask3 {
+                clip: rect(0px, 130px, 130px, 55px);
+            }
+
+            .circle-wrap3 .inside-circle3 {
+                width: 108px;
+                height: 108px;
+                font-size: 1.4em;
+                margin-top: 10.5px;
+                margin-left: 11px;
+            }
+
+            .mask3 .fill3 {
+                clip: rect(0px, 55px, 130px, 0px);
+                background-color: gold;
+            }
+
+            .circle-wrap4 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap4 .circle4 .mask4,
+            .circle-wrap4 .circle4 .fill4 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap4 .circle4 .mask4 {
+                clip: rect(0px, 130px, 130px, 55px);
+            }
+
+            .circle-wrap4 .inside-circle4 {
+                width: 108px;
+                height: 108px;
+                font-size: 1.4em;
+                margin-top: 10.5px;
+                margin-left: 11px;
+            }
+
+            .mask .fill4 {
+                clip: rect(0px, 60px, 130px, 0px);
+                background-color: gold;
+            }
+
+            .circle-wrap5 {
+                min-width: 130px;
+                min-height: 130px;
+                overflow: hidden;
+            }
+
+            .circle-wrap5 .circle5 .mask5,
+            .circle-wrap5 .circle5 .fill5 {
+                min-width: 130px;
+                min-height: 130px;
+            }
+
+            .circle-wrap5 .circle5 .mask5 {
+                clip: rect(0px, 140px, 140px, 60px);
+            }
+
+            .circle-wrap5 .inside-circle5 {
+                width: 108px;
+                height: 108px;
+                font-size: 1.4em;
+                margin-top: 10.5px;
+                margin-left: 11px;
+            }
+
+            .mask5 .fill5 {
+                clip: rect(0px, 60px, 140px, 0px);
+                background-color: gold;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Home-Page -->
+    <div class="home-bg">
+        <div class="top-contact">
+            <a href="7821069947"><i class="fa-solid fa-phone"></i>+12123 12565</a>
+            <p><a href="tanveshpadyal3@gmail.com"><i class="fa-solid fa-envelope"></i> tanveshpadyal3@gmail.com</a></p>
+        </div>
+        <header class="sticky" id="main-nav">
+            <div class="logo">
+                <h1><img src="./images/waving-hand.png" alt="" width="70px">𝓣𝓪𝓷𝓿<span>𝓮𝓼𝓱</span></h1>
+                <p> Hi, my name is Tanvesh padyal and I'm a Full-stack Developer. Welcome to my personal website!
+                </p>
+            </div>
+            <input type="checkbox" name="click" id="click">
+            <label for="click" class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav>
+                <ul>
+                    <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-circle-info"></i> About</a></li>
+                    <li><a href="#education"><i class="fa-solid fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#project"><i class="fa-solid fa-box-open"></i> Project</a></li>
+                    <li><a href="#skills"> <i class="fa-solid fa-gears"></i> Skill</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-phone"></i> ContactUS</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-link">
+                <a href="https://www.linkedin.com/in/tanvesh-padyal-445768237/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/tanveshpadyal2005"><i class="fa-brands fa-github"></i></a>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </header>
+
+        <div class="toparrow">
+            <!-- <a href="https://chatwith.io/s/5f33ce0c4aede" style="display: table; font-family: sans-serif; text-decoration: none; margin: 1em auto; color: #fff; font-size: 0.9em; padding: 1em 2em 1em 3.5em; border-radius: 2em; font-weight: bold; background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; background-size: 1.6em;"></a> -->
+            <a href=" https://wa.me/917821069947?text=I'm%20interested%20in%20your%20Worked"><i
+                    class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+
+
+        <div class="home-main">
+            <div class="content">
+                <h2>Hello,This is
+                    <span>Tanvesh Padyal.</span>
+                </h2>
+                <h2 style="padding-top: 0;">
+                    I'm a <span id="ani">Full-stack developer.</span>
+                </h2>
+                <p>I'm a full-stack developer with extensive work efficency. <br>
+                    My expertise to create Web design,learn programming.</p>
+
+                <div class="btn">
+                    <button>
+                        <p>Hire me <i class="fa-solid fa-arrow-right"></i></p>
+                    </button>
+                </div>
+            </div>
+            <div class="port-img">
+                <img src="./images/fav-icon.png" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- start about -->
+    <div class="title1">
+        <h1>About me</h1>
+    </div>
+    <div class="about-us" id="about">
+
+        <div class="abt-img">
+            <img src="./images/my-img.jpg" alt="">
+        </div>
+        <div class="abt-content">
+
+            <div class="abt-content01">
+                <h2>WHO AM I ?</h2>
+                <p>Hi I'm Tanvesh padyal On her way she met a copy. The copy warned the Little Blind Text, that where it
+                    came from it would have been rewritten a thousand times and everything that was left from its origin
+                    would be the word "and" and the Little Blind Text should turn around and return to its own, safe
+                    country.
+                    <br><br>
+                    Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                    life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
+                    far World of Grammar.
+                </p>
+
+                <div class="btn01">
+                    <button><a href="./images/Tanvesh Resume-Front-end Devloper.pdf" download>Download
+                            CV <i class="fa-solid fa-download"
+                                style="padding-left: 5px;font-size: 20px;"></i></a></button>
+                    <button id="button01">Learn more</button>
+                </div>
+
+                <div class="abt-skill">
+                    <div class="s1">
+                        <img src="./images/ux.png" alt="">
+                        <h3>Web Design</h3>
+                    </div>
+                    <div class="s2">
+                        <img src="./images/cloud.png" alt="">
+                        <h3>Software</h3>
+                    </div>
+                    <div class="s3">
+                        <img src="./images/skills.png" alt="">
+                        <h3>Communication</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start Education section -->
+    <div class="edu" id="education">
+        <div class="title001">
+            <h1><i class="fa-solid fa-graduation-cap"></i> Education</h1>
+
+        </div>
+        <p id="slogan">Tell me and I forget. Teach me and I remember. Involve me and I learn.</p>
+        <div class="edu-content">
+            <div class="ten">
+                <h5>10th<p>Nutan vidyalaya,Mumbai University</p>
+                </h5>
+                <a href="./images/SscMarksheetSavePDF.pdf" target="_blank"><button><span>Download certificate</span></button></a>
+                <img src="" alt="">
+            </div>
+            <div class="twel">
+                <h5>12th<p>Sir Parshurambhau collage,Pune University</p>
+                </h5>
+                <a href=""><button disabled><span>Download certificate</span></button></a>
+                <img src="" alt="">
+            </div>
+            <div class="dev">
+                <h5>Web Development Course</h5>
+                <a href=""><button disabled><span>Download certificate</span></button></a>
+                <img src="" alt="">
+            </div>
+
+            <div class="other-cet">
+                <h2>Others skill certificates :</h2>
+                <img src="./images/html-certificate.png" alt="">
+                <img src="./images/css-certificate.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- start project section -->
+    <div class="project" id="project">
+        <div class="title002">
+            <h1>Projects</h1>
+        </div>
+        <div class="all01">
+            <div class="responsive-web">
+                <div class="res-img">
+                    <img src="./images/responsive-ga3d18dc93_1280.png" alt="">
+                </div>
+                <div class="res-content">
+                    <h2>Responsive websites</h2>
+                    <div class="num">
+                        <p>1</p>
+                        <p>2</p>
+                    </div>
+                    <details>
+                        <summary>Project links</summary>
+                        <a href="">1. Techmind</a><br>
+                        <a href="#">2. desk fashion</a>
+                    </details>
+                </div>
+            </div>
+            <div class="js-project">
+                <div class="jp-img">
+                    <img src="./images/programming-gbd65f6ec1_1280.png" alt="">
+                </div>
+                <div class="jp-content">
+                    <h2>JS projects</h2>
+                    <div class="num">
+                        <p>1</p>
+                        <p>2</p>
+                        <p>3</p>
+                        <p>4</p>
+                    </div>
+                    <details>
+                        <summary>Project links</summary>
+                        <a href="#">1. API colories</a><br>
+                        <a href="#">2. Leap year</a><br>
+                        <a href="#">3. Calculator</a><br>
+                        <a href="#">4. Js bulb</a>
+                    </details>
+                </div>
+            </div>
+            <div class="clone-website">
+                <div class="cw-img">
+                    <img src="./images/how-to-clone-your-website-1536x985.png" alt="">
+                </div>
+                <div class="cw-content">
+                    <h2>Clone websites</h2>
+                    <div class="num">
+                        <p>1</p>
+                        <p>2</p>
+                    </div>
+                    <details>
+                        <summary>Project links</summary>
+                        <a href="#">1. Medinova</a>
+
+                    </details>
+
+                </div>
+            </div>
+        </div>
+        <div class="p-btn">
+            <button>See more...</button>
+        </div>
+    </div>
+
+    <!-- start Skill section -->
+    <div class="skill" id="skills">
+        <div class="title2">
+            <h1>Skills</h1>
+        </div>
+        <div class="fskill">
+            <div class="html">
+                <img src="./images/html-5.png" alt="">
+                <h2>HTML</h2>
+                <!-- <div class="htmlroll"></div> -->
+                <div class="circle-wrap">
+                    <div class="circle">
+                        <div class="mask full">
+                            <div class="fill"></div>
+                        </div>
+                        <div class="mask half">
+                            <div class="fill"></div>
+                        </div>
+                        <div class="inside-circle"> 85% </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="css">
+                <img src="./images/css-3.png" alt="">
+                <h2>CSS</h2>
+                <!-- <div class="cssroll"></div> -->
+                <div class="circle-wrap1">
+                    <div class="circle1">
+                        <div class="mask1 full1">
+                            <div class="fill1"></div>
+                        </div>
+                        <div class="mask1 half1">
+                            <div class="fill1"></div>
+                        </div>
+                        <div class="inside-circle1"> 80% </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="js">
+                <img src="./images/js.png" alt="">
+                <h2>JAVASCRIPT</h2>
+                <!-- <div class="jsroll"></div> -->
+                <div class="circle-wrap2">
+                    <div class="circle2">
+                        <div class="mask2 full2">
+                            <div class="fill2"></div>
+                        </div>
+                        <div class="mask2 half2">
+                            <div class="fill2"></div>
+                        </div>
+                        <div class="inside-circle2"> 60% </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fskill2" style="padding-top: 30px;">
+            <div class="html2">
+                <img src="./images/bootstrap.png" alt="">
+                <h2>BOOTSTRAP</h2>
+                <!-- <div class="htmlroll2"></div> -->
+                <div class="circle-wrap3">
+                    <div class="circle3">
+                        <div class="mask3 full3">
+                            <div class="fill3"></div>
+                        </div>
+                        <div class="mask3 half3">
+                            <div class="fill3"></div>
+                        </div>
+                        <div class="inside-circle3"> 70% </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="css2">
+                <img src="./images/physics.png" alt="">
+                <h2>REACT JS.</h2>
+                <!-- <div class="cssroll2"></div> -->
+                <div class="circle-wrap4">
+                    <div class="circle4">
+                        <div class="mask4 full4">
+                            <div class="fill4"></div>
+                        </div>
+                        <div class="mask4 half4">
+                            <div class="fill4"></div>
+                        </div>
+                        <div class="inside-circle4"> 70% </div>
+                    </div>
+                </div>
+            </div>
+            <div class="js2">
+                <img src="./images//figma.png" alt="">
+                <h2>FIGMA</h2>
+                <!-- <div class="jsroll2"></div> -->
+                <div class="circle-wrap5">
+                    <div class="circle5">
+                        <div class="mask5 full5">
+                            <div class="fill5"></div>
+                        </div>
+                        <div class="mask5 half5">
+                            <div class="fill5"></div>
+                        </div>
+                        <div class="inside-circle5"> 60% </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact section -->
+    <div class="contact-us" id="contact">
+        <div class="cont-title">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="cont-container">
+
+            <div class="contact">
+                <div class="contact-left" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Send your request</h3>
+
+                    <form action="">
+                        <label for="fullname">Full Name:</label><br>
+                        <input type="text" name="fullname" id="fullname" placeholder="Enter Name"><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" name="email" id="email" placeholder="Enter Valid Email"><br>
+
+                        <label for="pass">Password:</label><br>
+                        <input type="password" name="pass" id="pass" placeholder="Enter Password"><br>
+                        <label for="meg">Massage:</label><br>
+                        <textarea name="meg" id="meg" cols="30" rows="5"
+                            placeholder="Enter your Queries"></textarea><br>
+
+                        <input type="submit" value="Sumbit" id="Submit">
+                    </form>
+                </div>
+                <div class="contact-right" data-aos="fade-up" data-aos-delay="400">
+                    <h3>Reach Us</h3>
+
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-envelope"></i></td>
+                            <td>tanveshpadyal3@gmail.com</td>
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-solid fa-phone"></i></td>
+                            <td>+91 12354 82359</td>
+                        </tr>
+
+                        <tr>
+                            <td><i class="fa-sharp fa-solid fa-location-dot"></i></td>
+                            <td>
+                                06/pardeshi build.,Trimurti chowk,<br>
+                                bharti vidyapeet,katraj
+                                ,Pune-411 043
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <footer>
+            <div class="flogo">
+                <h1><img src="./images/twitter-big-logo.png" alt=""> 𝓣𝓪𝓷𝓿<span>𝓮𝓼𝓱</span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing <br>
+                    elit. Distinctio placeat debitis asperiores <br>
+                    corporis inventore quaerat, voluptates quia <br>
+                    accusamus fuga, aut iure tenetur rerum dicta ad <br>
+                </p>
+            </div>
+
+            <div class="Flinks">
+                <ul>
+                    <h3>Navlinks</h3>
+                    <li><a href="#"> Home <i class="fa-solid fa-angle-down"></i></i></a></li>
+                    <li><a href="#about"> About <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#"> Skill <i class="fa-solid fa-angle-down"></i></a></li>
+                    <li><a href="#">Contact <i class="fa-solid fa-angle-down"></i></a></li>
+                </ul>
+            </div>
+            <div class="social-link2">
+                <a href="https://www.linkedin.com/in/tanvesh-padyal-445768237/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <br>
+                <i class="fa-brands fa-twitter"></i> <br>
+                <a href="https://github.com/tanveshpadyal2005"><i class="fa-brands fa-github"></i></a>
+                <br>
+                <a href=""><i class="fa-brands fa-facebook"></i></a><br>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+    <script>
+        $(function () {
+            $('.chart').easyPieChart({
+                size: 160,
+                barColor: "#36e617",
+                scaleLength: 0,
+                lineWidth: 15,
+                trackColor: "#525151",
+                lineCap: "circle",
+                animate: 2000,
+            });
+        });
+    </script>
+
+    <script>
+        window.addEventListener("scroll", function () {
+            let navbar = document.getElementById("main-nav");
+
+            if (window.pageYOffset >= 33.675) {
+                navbar.classList.add("sticky");
+            }
+            else {
+                navbar.classList.remove("sticky");
+            }
+
+        })
+    </script>
+
+
+
+
+</body>
+
+</html>
